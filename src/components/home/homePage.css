@@ -14,8 +14,7 @@ a {
     position: relative;
     background: #eee;
     color: #292626;
-    text-align: center;
-    padding: 0 2em;
+    padding: 0 18em;
     position: -webkit-sticky;
     position: sticky;
     scroll-behavior: smooth;
@@ -24,8 +23,6 @@ a {
 
 .et-hero-tabs h1, .et-slide h1 {
     font-size: 2rem;
-    margin: 0;
-    letter-spacing: 0.4rem;
 }
 .et-hero-tabs h3, .et-slide h3 {
     font-size: 1rem;
@@ -37,13 +34,13 @@ a {
     flex-direction: row;
     position: -webkit-sticky;
     position: sticky;
-    position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 200%;
     height: 70px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background: #fff;
     z-index: 10;
+    margin-bottom: 540px;
     scroll-behavior: smooth;
 }
 .et-hero-tabs-container--top {
@@ -60,22 +57,21 @@ a {
     flex: 1;
     color: #292626;
     letter-spacing: 0.1rem;
-    transition: all 0.5s ease;
+    transition-property: all 0.2s ease;
     font-size: 0.8rem;
     scroll-behavior: smooth;
 }
 .et-hero-tab:hover {
     color: white;
     background: gray;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 .et-hero-tab-slider {
-    position: absolute;
     bottom: 0;
     width: 0;
     height: 6px;
     background: #66b1f1;
-    transition: left 0.3s ease;
+    transition-property: left 0.2s ease;
     scroll-behavior: smooth;
 }
 

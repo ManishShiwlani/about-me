@@ -7,7 +7,6 @@ function HomePage() {
         <div>
             <header>
                 <div className="et-hero-tabs">
-                    <h1>Manish Shiwlani</h1>
                     <div className="et-hero-tabs-container">
                         <a className="et-hero-tab" href="#about-me">About Me</a>
                         <a className="et-hero-tab" href="#technicalprojects">Technical Projects</a>
